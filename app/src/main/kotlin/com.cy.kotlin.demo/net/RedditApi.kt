@@ -12,9 +12,9 @@ interface RedditApi {
     @GET("/top.json")
     fun getTop(@Query("after") after: String, @Query("limit") limit: String): Call<RedditNewsResponse>
 
-    @POST("/mapi/user/business/login.json")
+    @POST("/login.json")
     fun userLogin(@Body request: LoginRequest): Call<LoginData>
 
-    @POST("/capi/user/login/loginOnV2.json")
+    @POST("/loginOnV2.json")
     fun userCLogin(@Body request: LoginRequest): Call<LoginData>
 }

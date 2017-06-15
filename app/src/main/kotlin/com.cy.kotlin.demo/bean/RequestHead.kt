@@ -6,12 +6,10 @@ package com.cy.kotlin.demo
 
 data class RequestHead(var type: String? = "m") {
     val _request_time_stamp_ = System.currentTimeMillis()
-    val _request_token_: String? = getHexMD5("car-" + type + "api-" + _request_time_stamp_ + "-house")
     val _app_version_code_: String = "2.5.0"
     val _channel_: Int = 1
     val _dev_: String = "android"
     val _device_type_: Int = 1
-    val _platform_id_: Int = 1
 }
 
 data class ReqLoginData(val loginName: String,

@@ -18,7 +18,7 @@ class RestAPI() {
 
     init {
         val retrofit = Retrofit.Builder()
-                .baseUrl("https://www.reddit.com")
+                .baseUrl("https://www.reddit.com/")
                 .addConverterFactory(MoshiConverterFactory.create())//解析json数据
                 .build()
 
@@ -34,7 +34,7 @@ class RestAPI() {
                 .addInterceptor(loggingInterceptor)
                 .build()
         val retrofitLogin = Retrofit.Builder()
-                .baseUrl("http://capi.car-house.cn/")
+                .baseUrl("http://www.reddit.com/")
                 .client(client)
                 .addConverterFactory(DecodeConvertFactory.create().asLenient())//解析json数据
                 .build()

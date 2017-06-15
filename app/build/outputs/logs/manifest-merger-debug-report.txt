@@ -1,0 +1,109 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:7:5-23:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\4a52b1706493334343fc29a03b61b2bc74e355c3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\47a372901d2f1285ffea3afb4ecf446d6e6394fe\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\1e4a3f8b791dcbd466d174ffdc5cd135694b656e\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\92e8893375616f00e0055beba3cc22d2d60bf5f6\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Administrator\.android\build-cache\e0a77d52d2eb18d1cda6ebd316f5b3d4e4120d5a\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\362f7b6b3eb4d99fe02c51c81484f49e53a60bc6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\036d653b0ab322981e448e6e3bd39060f846cddf\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\c5dc0ec4aeb70008e54bdb7285f27f21bf75589a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\86bde657cd25d2a097de289bafabb819c61bb68c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\5898e84f7466ae594e9f98eec2224d444f4ffff9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\9d9a4e2b9107c11ddaab47b078be753d80f0dea3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha8] C:\Users\Administrator\.android\build-cache\c28efce7fc5a014520ec89461a2b2a52bb448b38\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:12:9-35
+	android:roundIcon
+		ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:11:9-54
+	android:allowBackup
+		ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:9:9-43
+	android:theme
+		ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:13:9-40
+activity#com.cy.kotlin.demo.MainActivity
+ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:14:9-21:20
+	android:name
+		ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:14:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.LAUNCHER
+ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:15:13-20:29
+action#android.intent.action.MAIN
+ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:18:27-74
+category#android.intent.category.DEFAULT
+ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:19:17-76
+	android:name
+		ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:19:27-73
+activity#com.cy.kotlin.demo.NetActivity
+ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:22:9-58
+	android:name
+		ADDED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml:22:19-46
+uses-sdk
+INJECTED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\4a52b1706493334343fc29a03b61b2bc74e355c3\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\47a372901d2f1285ffea3afb4ecf446d6e6394fe\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\1e4a3f8b791dcbd466d174ffdc5cd135694b656e\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\92e8893375616f00e0055beba3cc22d2d60bf5f6\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Administrator\.android\build-cache\e0a77d52d2eb18d1cda6ebd316f5b3d4e4120d5a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\362f7b6b3eb4d99fe02c51c81484f49e53a60bc6\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\036d653b0ab322981e448e6e3bd39060f846cddf\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\c5dc0ec4aeb70008e54bdb7285f27f21bf75589a\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\86bde657cd25d2a097de289bafabb819c61bb68c\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\5d9b3bc688ef1f35c7e3b7028aba85cef9a426ff\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\5898e84f7466ae594e9f98eec2224d444f4ffff9\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\9d9a4e2b9107c11ddaab47b078be753d80f0dea3\output\AndroidManifest.xml:21:5-23:58
+MERGED from [jp.wasabeef:glide-transformations:2.0.2] C:\Users\Administrator\.android\build-cache\e8f96d7c424b8909848e08a60bc00d1dbf852419\output\AndroidManifest.xml:8:5-10:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Administrator\.android\build-cache\11e6e824af709c6597982cf26b2e617ac1e396d1\output\AndroidManifest.xml:19:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha8] C:\Users\Administrator\.android\build-cache\c28efce7fc5a014520ec89461a2b2a52bb448b38\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\4a52b1706493334343fc29a03b61b2bc74e355c3\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml
+		INJECTED from D:\BaiduYunDownload\demo-master\KotlinDemo\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\4a52b1706493334343fc29a03b61b2bc74e355c3\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\47a372901d2f1285ffea3afb4ecf446d6e6394fe\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\1e4a3f8b791dcbd466d174ffdc5cd135694b656e\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\92e8893375616f00e0055beba3cc22d2d60bf5f6\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Administrator\.android\build-cache\e0a77d52d2eb18d1cda6ebd316f5b3d4e4120d5a\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\362f7b6b3eb4d99fe02c51c81484f49e53a60bc6\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\036d653b0ab322981e448e6e3bd39060f846cddf\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\c5dc0ec4aeb70008e54bdb7285f27f21bf75589a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\86bde657cd25d2a097de289bafabb819c61bb68c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\5d9b3bc688ef1f35c7e3b7028aba85cef9a426ff\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\5898e84f7466ae594e9f98eec2224d444f4ffff9\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\9d9a4e2b9107c11ddaab47b078be753d80f0dea3\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\4a52b1706493334343fc29a03b61b2bc74e355c3\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\4a52b1706493334343fc29a03b61b2bc74e355c3\output\AndroidManifest.xml:26:9-47
